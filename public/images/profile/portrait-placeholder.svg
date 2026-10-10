@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Professional portrait placeholder</title>
+  <desc id="desc">Abstract placeholder indicating where a professional portrait of Dr. Giju Paul should be placed.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#102033"/>
+      <stop offset="1" stop-color="#0A1424"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#1AA7A1" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#1AA7A1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="670" cy="220" r="360" fill="url(#glow)"/>
+  <g opacity=".45" stroke="#D6B36A" stroke-width="2" fill="none">
+    <circle cx="170" cy="190" r="55"/>
+    <circle cx="740" cy="390" r="42"/>
+    <circle cx="180" cy="800" r="36"/>
+    <path d="M170 190 C340 110 520 130 740 390"/>
+    <path d="M180 800 C390 680 560 590 740 390"/>
+  </g>
+  <g fill="#F8F7F3" opacity=".92">
+    <circle cx="450" cy="400" r="135"/>
+    <path d="M195 935c30-210 150-325 255-325s225 115 255 325H195z"/>
+  </g>
+  <g transform="translate(450 1000)" text-anchor="middle">
+    <text fill="#71D4CE" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">PORTRAIT PLACEHOLDER</text>
+  </g>
+</svg>
